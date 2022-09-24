@@ -7,11 +7,12 @@ Datasets are available upon request. They are not attached due to ethical reason
 
 'PMIDs.txt' contains the list of PubMed IDs for IHC-related abstracts
 
-1. Run 'get_pmid.ipnb' to download PubMed abstracts using the list of PMIDs.
+1. Run 'get_pmids.ipnb' to download PubMed abstracts using the list of PMIDs from train.csv, val.csv.
 
-2. Run 'run_mlm.sh' to pre-train Base-BERT, 'run_mlm_blue.sh' to pre-train BlueBERT, 'run_mlm_clinical.sh' to pre-train Bio_ClinicalBERT, 
+2. Run 'run_mlm.sh' to pre-train Base-BERT, 'run_mlm_blue.sh' to pre-train BlueBERT, 'run_mlm_clinical.sh' to pre-train Bio_ClinicalBERT 
+(Create three directories before running each script: IHC_BERT, BLUE_IHC_BERT, CLINICAL_IHC_BERT. Create two sub-directories within each new directory:'weights' & 'runs'
 
-3. Run 'extract_reports.ipnb' to extract the annotated reports from zipped directories
+3. Run 'Extract all xml files.ipnb' to extract the annotated reports from zip files exported from INCEpTION
 
 4. Run 'get_ground_truth.ipnb' to extract per-token annotations
 
