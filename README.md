@@ -15,6 +15,6 @@ Datasets are available upon request. They are not attached due to ethical reason
 
 4. Run 'get_ground_truth.ipnb' to extract per-token annotations
 
-5. Run 'named_entity_recognition.ipnb' to fine-tune 6 models (BERT-BASE, BlueBERT, Bio_ClinicalBERT, IHC-BERT-BASE, IHC-BlueBERT, IHC-Bio_ClinicalBERT)
+5. Run 'fine.ipnb' to fine-tune 6 models (BERT-BASE, BlueBERT, Bio_ClinicalBERT, IHC-BERT-BASE, IHC-BlueBERT, IHC-Bio_ClinicalBERT). Notebook is too long to render. So if you want to look at the code open 'fine_tuning.py'
 
 6. Run 'marker_performances.ipnb' to extract by marker performance on test dataset, run 'marker_performances_hl.ipnb' to extract by marker performance on classical Hodgkin Lymphoma dataset, run 'marker_performances_oc.ipnb' to extract by marker performance on Marker Abundances in Metastatic High Grade Serous Ovarian Carcinoma dataset
